@@ -1,0 +1,31 @@
+# Virtual Environment (local environment - not uploaded to GitHub)
+venv/
+.venv/
+env/
+ENV/
+
+# Datasets (external/raw datasets ignored; project uses built-in generator or UI uploads)
+datasets/
+data/
+*.csv
+*.xlsx
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Trained binary model artifacts (auto-generated on first run or via train script)
+models/*.joblib
+models/*.pkl
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env

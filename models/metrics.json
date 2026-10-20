@@ -1,0 +1,40 @@
+{
+  "forecasting": {
+    "RandomForest": {
+      "MAE": 750.81,
+      "RMSE": 924.42,
+      "R2": 0.446
+    },
+    "DummyBaseline": {
+      "MAE": 1077.07,
+      "RMSE": 1404.35,
+      "R2": -0.278
+    }
+  },
+  "sentiment": {
+    "accuracy": 0.9875,
+    "f1_macro": 0.9875,
+    "labels": [
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "confusion": [
+      [
+        93,
+        0,
+        0
+      ],
+      [
+        0,
+        68,
+        0
+      ],
+      [
+        0,
+        4,
+        155
+      ]
+    ]
+  }
+}
